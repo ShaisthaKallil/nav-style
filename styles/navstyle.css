@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*:::: Natural Box Layout ::::*/
+html{
+	box-sizing: border-box;	
+}
+*,*:before, after{
+	box-sizing: inherit;	
+}
+
+/*:: General Style ::*/
+body{
+	margin:0;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:16px;	
+}
+
+header{
+	background-color:#59112e;
+}
+
+/*:: Navigation General Style::*/
+nav{
+	/*background-color:blue;*/
+	width:960px;
+	margin:0 auto;
+}
+
+/*:: Unordered List Style::*/
+nav ul{
+	list-style-type:none;
+	width:100%;
+	max-width:690px;
+	margin:0px auto;
+}
+
+/*:: List Style::*/
+nav ul li{
+	display:inline-block;
+	margin:10px;
+	padding:10px 0px;
+}
+
+/*:: Link text style::*/
+nav ul li a{
+	padding:15px;
+	text-decoration:none;
+	color:white;
+	letter-spacing:1px;
+}
+
+/*:::::::::::::::SECTION 2: HOVER EFFECT::::::::::::::*/
+li a:hover{
+	color:maroon;
+	background-color:beige;
+	border-radius:6px;
+}
+
+/*:::::::::::::::SECTION 3: SELECTED LINK::::::::::::::*/
+.selected{
+	color:maroon;
+	background-color:beige;
+	border-radius:6px;
+}
+
+
+
